@@ -1,0 +1,47 @@
+{
+  "name": "seneca-sendgrid-mail",
+  "description": "Seneca sendgrid email plugin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "keywords": [
+    "seneca",
+    "microservice",
+    "mail",
+    "email",
+    "sendgrid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/seneca-sendgrid-mail.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/seneca-sendgrid-mail/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/seneca-sendgrid-mail",
+  "engines": {
+    "node": ">=4.4.7"
+  },
+  "main": "lib/sendgrid.js",
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "nsp": "2.6.1",
+    "seneca": "2.1.0",
+    "seneca-mail": "0.2.2",
+    "standard": "7.1.2",
+    "tap": "6.3.0"
+  },
+  "dependencies": {
+    "sendgrid": "4.0.1"
+  }
+}
