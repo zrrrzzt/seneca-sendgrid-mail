@@ -6,7 +6,7 @@ Seneca SendGrid email plugin.
 This is a module for the [Seneca](http://senecajs.org) microservices toolkit.
 It's a plugin extension for [seneca-mail](https://github.com/rjrodger/seneca-mail) to enable sending emails via [SendGrid](https://sendgrid.com/).
 
-Visit [seneca-mail](https://github.com/rjrodger/seneca-mail) for full usage documention.
+Visit the [seneca-mail](https://github.com/rjrodger/seneca-mail) page for full usage documention.
 
 ## Installation
 
@@ -57,5 +57,5 @@ seneca.ready(error => {
 ## License
 [MIT](LICENSE)
 
-## Txh
+## Thx
 - [seneca-postmark-mail](https://github.com/rjrodger/seneca-postmark-mail) - for inspiration
