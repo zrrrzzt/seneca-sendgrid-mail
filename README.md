@@ -18,7 +18,7 @@ $ npm i seneca-sendgrid-mail
 
 ## Usage
 
-```javascript
+```JavaScript
 'use strict'
 
 const seneca = require('seneca')()
