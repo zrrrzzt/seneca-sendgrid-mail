@@ -1,7 +1,7 @@
 {
   "name": "seneca-sendgrid-mail",
   "description": "Seneca SendGrid email plugin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/seneca-sendgrid-mail",
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=4.6.0"
   },
   "main": "lib/sendgrid.js",
   "scripts": {
