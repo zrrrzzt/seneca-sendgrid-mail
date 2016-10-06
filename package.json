@@ -1,7 +1,7 @@
 {
   "name": "seneca-sendgrid-mail",
   "description": "Seneca SendGrid email plugin",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -28,9 +28,9 @@
   },
   "main": "lib/sendgrid.js",
   "scripts": {
-    "test": "standard && nsp check && tap --reporter=spec test/*.js",
-    "coverage": "tap test/*.js --coverage",
-    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js",
     "standard-fix": "standard --fix"
   },
