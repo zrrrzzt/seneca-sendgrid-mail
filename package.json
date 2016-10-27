@@ -37,7 +37,7 @@
   "devDependencies": {
     "coveralls": "2.11.14",
     "nsp": "2.6.2",
-    "seneca": "3.2.1",
+    "seneca": "3.2.2",
     "seneca-mail": "0.2.2",
     "standard": "8.4.0",
     "tap": "7.1.2"
