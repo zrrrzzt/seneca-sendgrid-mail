@@ -35,14 +35,14 @@
     "standard-fix": "standard --fix"
   },
   "devDependencies": {
-    "coveralls": "2.12.0",
+    "coveralls": "2.13.0",
     "nsp": "2.6.3",
     "seneca": "3.3.0",
     "seneca-mail": "0.2.2",
     "standard": "10.0.1",
-    "tap": "10.3.0"
+    "tap": "10.3.1"
   },
   "dependencies": {
-    "sendgrid": "4.8.0"
+    "sendgrid": "5.0.0"
   }
 }
