@@ -35,7 +35,7 @@
     "standard-fix": "standard --fix"
   },
   "devDependencies": {
-    "coveralls": "2.13.0",
+    "coveralls": "2.13.1",
     "nsp": "2.6.3",
     "seneca": "3.3.0",
     "seneca-mail": "0.2.2",
