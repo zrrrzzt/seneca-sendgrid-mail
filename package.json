@@ -43,6 +43,6 @@
     "tap": "10.3.2"
   },
   "dependencies": {
-    "sendgrid": "5.1.0"
+    "sendgrid": "5.1.1"
   }
 }
