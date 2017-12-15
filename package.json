@@ -1,7 +1,7 @@
 {
   "name": "seneca-sendgrid-mail",
   "description": "Seneca SendGrid email plugin",
-  "version": "1.0.15",
+  "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -17,14 +17,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/zrrrzzt/seneca-sendgrid-mail.git"
+    "url": "https://github.com/zrrrzzt/seneca-sendgrid-mail.git"
   },
   "bugs": {
-    "url": "http://github.com/zrrrzzt/seneca-sendgrid-mail/issues"
+    "url": "https://github.com/zrrrzzt/seneca-sendgrid-mail/issues"
   },
-  "homepage": "https://github.com/zrrrzzt/seneca-sendgrid-mail",
+  "homepage": "https://github.com/zrrrzzt/seneca-sendgrid-mail#readme",
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=8.9.3"
   },
   "main": "lib/sendgrid.js",
   "scripts": {
@@ -43,6 +43,6 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "sendgrid": "5.2.3"
+    "@sendgrid/mail": "6.1.4"
   }
 }

@@ -1,12 +1,17 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/seneca-sendgrid-mail.svg?branch=master)](https://travis-ci.org/zrrrzzt/seneca-sendgrid-mail)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/seneca-sendgrid-mail.svg)](https://greenkeeper.io/)
+
 # seneca-sendgrid-mail
+
 Seneca SendGrid email plugin.
 
 This is a module for the [Seneca](http://senecajs.org) microservices toolkit.
 It's a plugin extension for [seneca-mail](https://github.com/rjrodger/seneca-mail) to enable sending emails via [SendGrid](https://sendgrid.com/).
 
 Visit the [seneca-mail](https://github.com/rjrodger/seneca-mail) page for full usage documention.
+
+Requires Node.js >= 8
 
 ## Installation
 
@@ -54,8 +59,10 @@ seneca.ready(error => {
 
 ```
 
+## Thx
+- [seneca-postmark-mail](https://github.com/rjrodger/seneca-postmark-mail) - for inspiration
+
 ## License
 [MIT](LICENSE)
 
-## Thx
-- [seneca-postmark-mail](https://github.com/rjrodger/seneca-postmark-mail) - for inspiration
+![Robohash image of seneca-sendgrid-mail](https://robots.kebabstudios.party/seneca-sendgrid-mail.png "Robohash image of seneca-sendgrid-mail")
