@@ -43,6 +43,6 @@
     "tap": "12.0.1"
   },
   "dependencies": {
-    "@sendgrid/mail": "6.2.1"
+    "@sendgrid/mail": "6.3.1"
   }
 }
