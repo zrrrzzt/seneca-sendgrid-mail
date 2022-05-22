@@ -39,7 +39,7 @@
     "nsp": "3.2.1",
     "seneca": "3.27.2",
     "seneca-mail": "0.2.2",
-    "standard": "16.0.4",
+    "standard": "17.0.0",
     "tap": "16.2.0"
   },
   "dependencies": {
